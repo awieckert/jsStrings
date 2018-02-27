@@ -14,3 +14,7 @@ var name = "batman"
 // Challenge 2
 var string = "Hello " + name + " how are you doing today.";
 console.log("string", string);
+
+var DNA = "GCATCATTACGTC";
+var RNA = DNA.replace(/T/g, 'U');
+console.log("RNA:", RNA);
