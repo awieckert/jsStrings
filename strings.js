@@ -21,7 +21,8 @@ console.log("RNA:", RNA);
 
 var animal = "ALLIGator";
 
-if(animal === "Alligator"){
+if(animal.toLowerCase() === "alligator"){
+    // debugger;
     console.log("animal: ", "wide");
 } else {
     console.log("small");
@@ -30,3 +31,8 @@ if(animal === "Alligator"){
 if(animal.toLowerCase() === "alligator"){
     console.log("animal: ", "wide");
 }
+
+var yarn = "the better string";
+var domString = "<h4>" + yarn + "</h4>"
+var myDiv = document.getElementById("yarn-holder");
+myDiv.innerHTML = domString;
